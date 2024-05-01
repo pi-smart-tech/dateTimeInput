@@ -1,11 +1,18 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, View } from 'react-native';
+import DateInput from './src/dateInput/DateInput';
+import TimeInput from './src/timeInput/TimeInput';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
+      
+
+      <DateInput></DateInput>
+
+
+      <TimeInput></TimeInput>
+
+
     </View>
   );
 }
